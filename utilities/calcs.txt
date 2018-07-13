@@ -1,0 +1,59 @@
+/*
+*
+pp:*/
+
+	ofstream outFile;
+	outFile.open("pp.txt");
+	double val;	int i;
+	outFile << "life line positive positions" << endl;
+	for(val = -11, i=1; val <= 8; val+=0.19, i++){
+		outFile << ".pp-" << i << "{";
+		outFile << "\tmargin-left: " << val << "vw; ";
+		outFile << "}\n";
+	}
+
+/*
+*
+np:*/
+
+	outFile.open("np.txt");
+	double val;	int i;
+	outFile << "life line positive positions" << endl;
+	for(val = 25, i=1; val >= 1; val-=0.24, i++){
+		outFile << ".np-" << i << "{";
+		outFile << "\tmargin-left: " << val << "vw; ";
+		outFile << "}\n";
+	}
+
+/*
+*
+dlp:*/
+
+	ofstream outFile;
+	outFile.open("dlp.txt");
+	double val;	int i;
+	outFile << "life line positive positions" << endl;
+	for(val = 2.5, i=1; val <= 21.5; val+=0.19, i++){
+		outFile << ".dlp-" << i << "{";
+		outFile << "\twidth: " << val << "vw; ";
+		outFile << "}\n";
+	}
+
+/*
+*
+dln:*/
+
+	ofstream outFile;
+	outFile.open("dln.txt");
+	double val;	int i, j;
+	double left, width;
+	outFile << "life line negative positions" << endl;
+	for(i=1, j=100; i<=100; i++, j--){
+		left = 40 - (i-1)*0.233;
+		width = 23.81 - j*0.233;
+		
+		outFile << ".dln-" << i << "{\n";
+		outFile << "\twidth: " << width << "vw;\n";
+		outFile << "\tleft: " << left << "vw;";
+		outFile << "}\n";
+	}

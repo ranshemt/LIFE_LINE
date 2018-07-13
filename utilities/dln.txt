@@ -1,0 +1,301 @@
+life line negative positions
+.dln-1{
+	width: 0.51vw;
+	left: 40vw;}
+.dln-2{
+	width: 0.743vw;
+	left: 39.767vw;}
+.dln-3{
+	width: 0.976vw;
+	left: 39.534vw;}
+.dln-4{
+	width: 1.209vw;
+	left: 39.301vw;}
+.dln-5{
+	width: 1.442vw;
+	left: 39.068vw;}
+.dln-6{
+	width: 1.675vw;
+	left: 38.835vw;}
+.dln-7{
+	width: 1.908vw;
+	left: 38.602vw;}
+.dln-8{
+	width: 2.141vw;
+	left: 38.369vw;}
+.dln-9{
+	width: 2.374vw;
+	left: 38.136vw;}
+.dln-10{
+	width: 2.607vw;
+	left: 37.903vw;}
+.dln-11{
+	width: 2.84vw;
+	left: 37.67vw;}
+.dln-12{
+	width: 3.073vw;
+	left: 37.437vw;}
+.dln-13{
+	width: 3.306vw;
+	left: 37.204vw;}
+.dln-14{
+	width: 3.539vw;
+	left: 36.971vw;}
+.dln-15{
+	width: 3.772vw;
+	left: 36.738vw;}
+.dln-16{
+	width: 4.005vw;
+	left: 36.505vw;}
+.dln-17{
+	width: 4.238vw;
+	left: 36.272vw;}
+.dln-18{
+	width: 4.471vw;
+	left: 36.039vw;}
+.dln-19{
+	width: 4.704vw;
+	left: 35.806vw;}
+.dln-20{
+	width: 4.937vw;
+	left: 35.573vw;}
+.dln-21{
+	width: 5.17vw;
+	left: 35.34vw;}
+.dln-22{
+	width: 5.403vw;
+	left: 35.107vw;}
+.dln-23{
+	width: 5.636vw;
+	left: 34.874vw;}
+.dln-24{
+	width: 5.869vw;
+	left: 34.641vw;}
+.dln-25{
+	width: 6.102vw;
+	left: 34.408vw;}
+.dln-26{
+	width: 6.335vw;
+	left: 34.175vw;}
+.dln-27{
+	width: 6.568vw;
+	left: 33.942vw;}
+.dln-28{
+	width: 6.801vw;
+	left: 33.709vw;}
+.dln-29{
+	width: 7.034vw;
+	left: 33.476vw;}
+.dln-30{
+	width: 7.267vw;
+	left: 33.243vw;}
+.dln-31{
+	width: 7.5vw;
+	left: 33.01vw;}
+.dln-32{
+	width: 7.733vw;
+	left: 32.777vw;}
+.dln-33{
+	width: 7.966vw;
+	left: 32.544vw;}
+.dln-34{
+	width: 8.199vw;
+	left: 32.311vw;}
+.dln-35{
+	width: 8.432vw;
+	left: 32.078vw;}
+.dln-36{
+	width: 8.665vw;
+	left: 31.845vw;}
+.dln-37{
+	width: 8.898vw;
+	left: 31.612vw;}
+.dln-38{
+	width: 9.131vw;
+	left: 31.379vw;}
+.dln-39{
+	width: 9.364vw;
+	left: 31.146vw;}
+.dln-40{
+	width: 9.597vw;
+	left: 30.913vw;}
+.dln-41{
+	width: 9.83vw;
+	left: 30.68vw;}
+.dln-42{
+	width: 10.063vw;
+	left: 30.447vw;}
+.dln-43{
+	width: 10.296vw;
+	left: 30.214vw;}
+.dln-44{
+	width: 10.529vw;
+	left: 29.981vw;}
+.dln-45{
+	width: 10.762vw;
+	left: 29.748vw;}
+.dln-46{
+	width: 10.995vw;
+	left: 29.515vw;}
+.dln-47{
+	width: 11.228vw;
+	left: 29.282vw;}
+.dln-48{
+	width: 11.461vw;
+	left: 29.049vw;}
+.dln-49{
+	width: 11.694vw;
+	left: 28.816vw;}
+.dln-50{
+	width: 11.927vw;
+	left: 28.583vw;}
+.dln-51{
+	width: 12.16vw;
+	left: 28.35vw;}
+.dln-52{
+	width: 12.393vw;
+	left: 28.117vw;}
+.dln-53{
+	width: 12.626vw;
+	left: 27.884vw;}
+.dln-54{
+	width: 12.859vw;
+	left: 27.651vw;}
+.dln-55{
+	width: 13.092vw;
+	left: 27.418vw;}
+.dln-56{
+	width: 13.325vw;
+	left: 27.185vw;}
+.dln-57{
+	width: 13.558vw;
+	left: 26.952vw;}
+.dln-58{
+	width: 13.791vw;
+	left: 26.719vw;}
+.dln-59{
+	width: 14.024vw;
+	left: 26.486vw;}
+.dln-60{
+	width: 14.257vw;
+	left: 26.253vw;}
+.dln-61{
+	width: 14.49vw;
+	left: 26.02vw;}
+.dln-62{
+	width: 14.723vw;
+	left: 25.787vw;}
+.dln-63{
+	width: 14.956vw;
+	left: 25.554vw;}
+.dln-64{
+	width: 15.189vw;
+	left: 25.321vw;}
+.dln-65{
+	width: 15.422vw;
+	left: 25.088vw;}
+.dln-66{
+	width: 15.655vw;
+	left: 24.855vw;}
+.dln-67{
+	width: 15.888vw;
+	left: 24.622vw;}
+.dln-68{
+	width: 16.121vw;
+	left: 24.389vw;}
+.dln-69{
+	width: 16.354vw;
+	left: 24.156vw;}
+.dln-70{
+	width: 16.587vw;
+	left: 23.923vw;}
+.dln-71{
+	width: 16.82vw;
+	left: 23.69vw;}
+.dln-72{
+	width: 17.053vw;
+	left: 23.457vw;}
+.dln-73{
+	width: 17.286vw;
+	left: 23.224vw;}
+.dln-74{
+	width: 17.519vw;
+	left: 22.991vw;}
+.dln-75{
+	width: 17.752vw;
+	left: 22.758vw;}
+.dln-76{
+	width: 17.985vw;
+	left: 22.525vw;}
+.dln-77{
+	width: 18.218vw;
+	left: 22.292vw;}
+.dln-78{
+	width: 18.451vw;
+	left: 22.059vw;}
+.dln-79{
+	width: 18.684vw;
+	left: 21.826vw;}
+.dln-80{
+	width: 18.917vw;
+	left: 21.593vw;}
+.dln-81{
+	width: 19.15vw;
+	left: 21.36vw;}
+.dln-82{
+	width: 19.383vw;
+	left: 21.127vw;}
+.dln-83{
+	width: 19.616vw;
+	left: 20.894vw;}
+.dln-84{
+	width: 19.849vw;
+	left: 20.661vw;}
+.dln-85{
+	width: 20.082vw;
+	left: 20.428vw;}
+.dln-86{
+	width: 20.315vw;
+	left: 20.195vw;}
+.dln-87{
+	width: 20.548vw;
+	left: 19.962vw;}
+.dln-88{
+	width: 20.781vw;
+	left: 19.729vw;}
+.dln-89{
+	width: 21.014vw;
+	left: 19.496vw;}
+.dln-90{
+	width: 21.247vw;
+	left: 19.263vw;}
+.dln-91{
+	width: 21.48vw;
+	left: 19.03vw;}
+.dln-92{
+	width: 21.713vw;
+	left: 18.797vw;}
+.dln-93{
+	width: 21.946vw;
+	left: 18.564vw;}
+.dln-94{
+	width: 22.179vw;
+	left: 18.331vw;}
+.dln-95{
+	width: 22.412vw;
+	left: 18.098vw;}
+.dln-96{
+	width: 22.645vw;
+	left: 17.865vw;}
+.dln-97{
+	width: 22.878vw;
+	left: 17.632vw;}
+.dln-98{
+	width: 23.111vw;
+	left: 17.399vw;}
+.dln-99{
+	width: 23.344vw;
+	left: 17.166vw;}
+.dln-100{
+	width: 23.577vw;
+	left: 16.933vw;}

@@ -1,0 +1,7 @@
+LAST FIXES
+
+SideBar:
+user name	-	out of bound
+
+Life Line:
+line picture	-	not responsive

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Life Line</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        
+         <!--my includes-->
+        <link rel="icon" href="includes/images/logoFav.png">
+        <link href="includes/css/pie.css" rel="stylesheet">
+        <link href="includes/css/icons.css" rel="stylesheet">
+        <link href="includes/css/style.css" rel="stylesheet">
+        <script src="includes/js/pie.js"></script>
+        <script src="includes/js/main.js"></script>
+        <script src="includes/js/navs.js"></script>
+        
+        
+    </head>
+    <body>
+        <header>
+            <!--Top NavBar-->
+            <div class="container-fluid topnav" id="myTopnav">
+                <!--top desktop-->
+                <div class="row" id="desktop-topNav">
+                    <div class="col col1-padd">
+                        <i>Dashboard</i>
+                        <i class="bread">
+                            <a href="index.html">Home</a>
+                             / <a href="index.html" class="bread-chosen">Dashboard</a>
+                        </i>
+                    </div> 
+                    <div class="col">
+                        <i class="searchBar">Ask counselor anything or search time line <i class="fas fa-search bar-icon"></i> </i>
+                    </div> 
+                </div>
+                <!--/top desktop-->  
+                <!--top tablet-->  
+                <div class="row" id="tablet-topNav">
+                    <div class="col-6">
+                        <a class="icon" id="menu-icon">
+                            <i class="fa fa-bars hamburger"></i>Life Line
+                        </a>
+                        
+                    </div>
+                    <div class="col-3">
+                        <a href="#" class="logo-font logo-top-size"><img src="includes/images/logo-white.png" class="logo-top">Life Line</a>
+                    </div>
+                    <div class="col-3 un-top">
+                        User Name
+                    </div>
+                </div>
+                <!--/top tablet-->
+            </div>
+            <!--/Top NavBar-->
+            <!--Side Navbar-->
+            <div id="mySidenav" class="sideNav">
+                <ul class="ulWid">
+                    <li id="close-button">
+                        <i class="fas fa-times" id="close-icon"></i>
+                    </li>
+                    <li class="menu-big-item">
+                        <a href="#" class="logo-font logo-font-size"><img src="includes/images/logo-white.png" class="logoMenu"><h1>Life Line</h1></a>
+                    </li>
+                    <li class="menu-big-item">
+                        <a href="#"><img src="includes/images/logo-white.png" class="logoMenu">User Name</a>
+                    </li>
+                    <li>
+                        <a href="#" class="active"><i class="fas fa-home iconMenu"></i>Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="lifeline.html" class="off"><img src="includes/images/logo-white.png" class="logoMenu-ul">Life Line</a>
+                    </li>
+                    <li>
+                        <a href="#" class="off"><i class="fas fa-users iconMenu"></i>My Kids</a>
+                    </li>
+                    <li>
+                        <a href="#" class="off"><i class="fas fa-cog iconMenu"></i>Settings</a>
+                    </li>
+                    <li>
+                        <a href="#" class="off"><i class="fas fa-sign-out-alt iconMenu"></i>log out</a>
+                    </li>
+                </ul>
+              </div>
+              <!--/Side Navbar-->
+              
+        </header>
+
+        <!--Main Layout-->
+        <main class="MAIN">
+            <div class="container-fluid">
+                <!--Grid row-->
+                <!--PIE's ROW-->
+                <div class="row">
+                    <!--Grid column-->
+                    <!--PIE OBJECT-->
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <a href="event.html">
+                            <!--Card Light-->
+                            <div class="card">
+                                <!--Card pie-->
+                                <div id="pie1" class="donut-size">
+                                    <div class="pie-wrapper">
+                                        <span class="label">
+                                            <span class="num">0</span><span class="smaller">%</span>
+                                        </span>
+                                        <div class="pie">
+                                            <div class="left-side half-circle"></div>
+                                            <div class="right-side half-circle"></div>
+                                        </div>
+                                        <div class="shadow"></div>
+                                    </div>
+                                </div><!--Card content-->
+                                
+                                <div class="card-body">
+                                    <!--Title-->
+                                    <h4 class="card-title">Savings</h4>                                
+                                </div><!--/.Card content-->
+                            </div><!--/.Card Light-->
+                        </a>
+                    </div><!--/.PIE OBJECT-->
+
+                    <!--Grid column-->
+                    <!--PIE OBJECT-->
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <!--Card Light-->
+                        <div class="card">
+                            <!--Card pie-->
+                            <div id="pie2" class="donut-size">
+                                <div class="pie-wrapper">
+                                    <span class="label">
+                                        <span class="num">0</span><span class="smaller">%</span>
+                                    </span>
+                                    <div class="pie">
+                                        <div class="left-side half-circle"></div>
+                                        <div class="right-side half-circle"></div>
+                                    </div>
+                                    <div class="shadow"></div>
+                                </div>
+                            </div><!--Card content-->
+
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="card-title">Finance monthly</h4>                                
+                            </div><!--/.Card content-->
+                        </div><!--/.Card Light-->
+                    </div><!--/.PIE OBJECT-->
+
+                    <!--Grid column-->
+                    <!--PIE OBJECT-->
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <!--Card Light-->
+                        <div class="card">
+                            <!--Card pie-->
+                            <div id="pie3" class="donut-size">
+                                <div class="pie-wrapper">
+                                    <span class="label">
+                                        <span class="num">0</span><span class="smaller">%</span>
+                                    </span>
+                                    <div class="pie">
+                                        <div class="left-side half-circle"></div>
+                                        <div class="right-side half-circle"></div>
+                                    </div>
+                                    <div class="shadow"></div>
+                                </div>
+                            </div><!--Card content-->
+
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="card-title">Finance monthly</h4>                                
+                            </div><!--/.Card content-->
+                        </div><!--/.Card Light-->
+                    </div><!--/.PIE OBJECT-->
+        
+                    <!--Grid column-->
+                    <!--PIE OBJECT-->
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <!--Card Light-->
+                        <div class="card">
+                            <!--Card pie-->
+                            <div id="pie4" class="donut-size">
+                                <div class="pie-wrapper">
+                                    <span class="label">
+                                        <span class="num">0</span><span class="smaller">%</span>
+                                    </span>
+                                    <div class="pie">
+                                        <div class="left-side half-circle"></div>
+                                        <div class="right-side half-circle"></div>
+                                    </div>
+                                    <div class="shadow"></div>
+                                </div>
+                            </div><!--Card content-->
+
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="card-title">Finance monthly</h4>                                
+                            </div><!--/.Card content-->
+                        </div><!--/.Card Light-->
+                    </div><!--/.PIE OBJECT-->
+
+                    <!--Grid column-->
+                    <!--PIE OBJECT-->
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <!--Card Light-->
+                        <div class="card">
+                            <!--Card pie-->
+                            <div id="pie5" class="donut-size">
+                                <div class="pie-wrapper">
+                                    <span class="label">
+                                        <span class="num">0</span><span class="smaller">%</span>
+                                    </span>
+                                    <div class="pie">
+                                        <div class="left-side half-circle"></div>
+                                        <div class="right-side half-circle"></div>
+                                    </div>
+                                    <div class="shadow"></div>
+                                </div>
+                            </div><!--Card content-->
+
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="card-title">Finance monthly</h4>                                
+                            </div><!--/.Card content-->
+                        </div><!--/.Card Light-->
+                    </div><!--/.PIE OBJECT-->
+
+                    <!--Grid column-->
+                    <!--PIE OBJECT-->
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <!--Card Light-->
+                        <div class="card">
+                            <!--Card pie-->
+                            <div id="pie6" class="donut-size">
+                                <div class="pie-wrapper">
+                                    <span class="label">
+                                        <span class="num">0</span><span class="smaller">%</span>
+                                    </span>
+                                    <div class="pie">
+                                        <div class="left-side half-circle"></div>
+                                        <div class="right-side half-circle"></div>
+                                    </div>
+                                    <div class="shadow"></div>
+                                </div>
+                            </div><!--Card content-->
+
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="card-title">Finance monthly</h4>                                
+                            </div><!--/.Card content-->
+                        </div><!--/.Card Light-->
+                    </div><!--/.PIE OBJECT-->
+
+                        <!--Grid column-->
+                    <!--PIE OBJECT-->
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <!--Card Light-->
+                        <div class="card">
+                            <!--Card pie-->
+                            <div id="pie7" class="donut-size">
+                                <div class="pie-wrapper">
+                                    <span class="label">
+                                        <span class="num">0</span><span class="smaller">%</span>
+                                    </span>
+                                    <div class="pie">
+                                        <div class="left-side half-circle"></div>
+                                        <div class="right-side half-circle"></div>
+                                    </div>
+                                    <div class="shadow"></div>
+                                </div>
+                            </div><!--Card content-->
+
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="card-title">Finance monthly</h4>                                
+                            </div><!--/.Card content-->
+                        </div><!--/.Card Light-->
+                    </div><!--/.PIE OBJECT-->
+
+                        <!--Grid column-->
+                    <!--PIE OBJECT-->
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <!--Card Light-->
+                        <div class="card">
+                            <!--Card pie-->
+                            <div id="pie8" class="donut-size">
+                                <div class="pie-wrapper">
+                                    <span class="label">
+                                        <span class="num">0</span><span class="smaller">%</span>
+                                    </span>
+                                    <div class="pie">
+                                        <div class="left-side half-circle"></div>
+                                        <div class="right-side half-circle"></div>
+                                    </div>
+                                    <div class="shadow"></div>
+                                </div>
+                            </div><!--Card content-->
+
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="card-title">Finance monthly</h4>                                
+                            </div><!--/.Card content-->
+                        </div><!--/.Card Light-->
+                    </div><!--/.PIE OBJECT-->
+
+                        <!--Grid column-->
+                    <!--PIE OBJECT-->
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <!--Card Light-->
+                        <div class="card">
+                            <!--Card pie-->
+                            <div id="pie9" class="donut-size">
+                                <div class="pie-wrapper">
+                                    <span class="label">
+                                        <span class="num">0</span><span class="smaller">%</span>
+                                    </span>
+                                    <div class="pie">
+                                        <div class="left-side half-circle"></div>
+                                        <div class="right-side half-circle"></div>
+                                    </div>
+                                    <div class="shadow"></div>
+                                </div>
+                            </div><!--Card content-->
+
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="card-title">Finance monthly</h4>                                
+                            </div><!--/.Card content-->
+                        </div><!--/.Card Light-->
+                    </div><!--/.PIE OBJECT-->
+                </div><!--/.PIE's ROW-->      
+            </div>
+        </main>
+        <!--Main Layout-->
+
+    </body>
+</html>
