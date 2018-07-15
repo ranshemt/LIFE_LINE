@@ -12,7 +12,9 @@ $(document).ready(function(){
 
     $.each(data.Users, function(i, obj){
       if(obj.id == UserId){
-        UserName=obj.name;
+        UserName='<img src="'+obj.image+'"  alt="'+obj.name+'" class="logoMenu">';
+        UserName+=obj.name;
+
       }
 
     });

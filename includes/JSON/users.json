@@ -2,7 +2,7 @@
      "category": "User",
      "Users": [
      {
-        "id": "111",
+        "id": "111111111",
         "name" :"yosi",
         "image":"includes/images/yossi.jpeg"
      },
@@ -14,7 +14,8 @@
 
      {
         "id": "113",
-        "name" :"Dana"
+        "name" :"Dana",
+        "image": "includes/images/dana.jpg"
      }
      ]
      }
