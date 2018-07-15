@@ -24,6 +24,7 @@
         <script src="includes/js/navs.js"></script>
         <script src='https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js'></script>
         <script src="includes/js/timeline.js"></script>
+        <script src="includes/js/get_user_details.js"></script>
         
         
     </head>
@@ -37,7 +38,7 @@
                         <i>Dashboard</i>
                         <i class="bread">
                             <a href="index.html">Home</a>
-                             / <a href="index.html" class="bread-chosen">Dashboard</a>
+                             / <a href="index.html" class="bread-chosen">Life Line</a>
                         </i>
                     </div> 
                     <div class="col">
@@ -54,13 +55,32 @@
                         
                     </div>
                     <div class="col-3">
-                        <a href="#" class="logo-font logo-top-size"><img src="includes/images/logo-white.png" class="logo-top">Life Line</a>
+                        <a href="#" class="logo-font logo-top-size"><img src="includes/images/logo-white.png" class="logo-top" alt="logo">Life Line</a>
                     </div>
                     <div class="col-3 un-top">
                         User Name
                     </div>
                 </div>
                 <!--/top tablet-->
+                <!--life line menu-->
+                <div class="row ll-menu" id="life-line-menu">
+                    <div class="col">
+                        <a href="#">
+                            <i class="ll-title">Name</i>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#">
+                            <i class="ll-title">May 2033 - Jul 2033</i><i class="fas fa-caret-down ll-icon"></i>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#">
+                            <i class="ll-title">Set Goals</i><i class="fas fa-pencil-alt ll-icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--/life line menu-->
             </div>
             <!--/Top NavBar-->
             <!--Side Navbar-->
@@ -70,19 +90,22 @@
                         <i class="fas fa-times" id="close-icon"></i>
                     </li>
                     <li class="menu-big-item">
-                        <a href="index.html" class="logo-font"><img src="includes/images/logo-white.png" class="logoMenu"><h1 class="logo-font-size">Life Line</h1></a>
+                        <a href="#eve6" class="logo-font">
+                            <img src="includes/images/logo-white.png" class="logoMenu" alt="logo">
+                            <h1 class="logo-font-size">Life Line</h1>
+                        </a>
                     </li>
                     <li class="menu-big-item">
-                        <a href="#"><img src="includes/images/logo-white.png" class="logoMenu"><i class="un">User Name opo</i></a>
+                        <a href="#" id="un-side"><img src="includes/images/logo-white.png" class="logoMenu" alt="user picture">User Name</a>
                     </li>
                     <li>
-                        <a href="index.html" class="active"><i class="fas fa-home iconMenu"></i>Dashboard</a>
+                        <a href="index.html" class="off"><i class="fas fa-home iconMenu"></i>Dashboard</a>
                     </li>
                     <li>
-                        <a href="#" class="off"><img src="includes/images/logo-white.png" class="logoMenu-ul">Life Line</a>
+                        <a href="lifeline.html" class="active"><img src="includes/images/logo-white.png" class="logoMenu-ul" alt="logo">Life Line</a>
                     </li>
                     <li>
-                        <a href="#" class="off"><i class="fas fa-users iconMenu"></i>My Kids</a>
+                        <a href="mykids.html" class="off"><i class="fas fa-users iconMenu"></i>My Kids</a>
                     </li>
                     <li>
                         <a href="#" class="off"><i class="fas fa-cog iconMenu"></i>Settings</a>
@@ -91,8 +114,8 @@
                         <a href="#" class="off"><i class="fas fa-sign-out-alt iconMenu"></i>log out</a>
                     </li>
                 </ul>
-              </div>
-              <!--/Side Navbar-->
+            </div>
+            <!--/Side Navbar-->
               
         </header>
 
@@ -103,16 +126,16 @@
             <!--negative-->
             <div class="col-5">
                 <!--event-->               
-                <div class="row space-0">
+                <div class="row space-1">
                     <div class="col">
-                        <hr class="dln dln-39">
-                        <a href="#" class="EVENT np-39" id="eve1">
+                        <hr class="dln dln-100">
+                        <a href="#" class="EVENT np-100" id="eve1">
                             <div class="full-icon">
                                 <i class="back-circle"></i><i class="negative-circle"></i>
-                                <img src="includes/images/friends.png" class="friends-size">
+                                <img src="includes/images/friends.png" class="friends-size" alt="icon">
                                 <div class="clear"></div>
                             </div>
-                            <i class="percent">63%</i>
+                            <i class="percent">100%</i>
                             <div class="clear"></div>
                             <h3 class="title">First Girlfriend</h3>
                             <h4 class="date">Jan 2033</h4>
@@ -123,11 +146,11 @@
                 <!--event-->               
                 <div class="row space-1">
                     <div class="col">
-                        <hr class="dln dln-1">
-                        <a href="#" class="EVENT np-1" id="eve1">
+                        <hr class="dln dln-100">
+                        <a href="#" class="EVENT np-100" id="eve1">
                             <div class="full-icon">
                                 <i class="back-circle"></i><i class="negative-circle"></i>
-                                <img src="includes/images/friends.png" class="friends-size">
+                                <img src="includes/images/friends.png" class="friends-size" alt="icon">
                                 <div class="clear"></div>
                             </div>
                             <i class="percent">63%</i>
@@ -144,7 +167,7 @@
                             <a href="#" class="EVENT np-1" id="eve1">
                                 <div class="full-icon">
                                     <i class="back-circle"></i><i class="negative-circle"></i>
-                                    <img src="includes/images/friends.png" class="friends-size">
+                                    <img src="includes/images/friends.png" class="friends-size" alt="icon">
                                     <div class="clear"></div>
                                 </div>
                                 <i class="percent">63%</i>
@@ -161,7 +184,7 @@
                                 <a href="#" class="EVENT np-1" id="eve1">
                                     <div class="full-icon">
                                         <i class="back-circle"></i><i class="negative-circle"></i>
-                                        <img src="includes/images/friends.png" class="friends-size">
+                                        <img src="includes/images/friends.png" class="friends-size" alt="icon">
                                         <div class="clear"></div>
                                     </div>
                                     <i class="percent">63%</i>
@@ -178,7 +201,7 @@
                                     <a href="#" class="EVENT np-1" id="eve1">
                                         <div class="full-icon">
                                             <i class="back-circle"></i><i class="negative-circle"></i>
-                                            <img src="includes/images/friends.png" class="friends-size">
+                                            <img src="includes/images/friends.png" class="friends-size" alt="icon">
                                             <div class="clear"></div>
                                         </div>
                                         <i class="percent">63%</i>
@@ -191,14 +214,14 @@
                             <!--/event-->
                             <div class="row space-1">
                                     <div class="col">
-                                        <hr class="dln dln-1">
-                                        <a href="#" class="EVENT np-1" id="eve1">
+                                        <hr class="dln dln-45">
+                                        <a href="#" class="EVENT np-45" id="eve6">
                                             <div class="full-icon">
                                                 <i class="back-circle"></i><i class="negative-circle"></i>
-                                                <img src="includes/images/friends.png" class="friends-size">
+                                                <img src="includes/images/friends.png" class="friends-size" alt="icon">
                                                 <div class="clear"></div>
                                             </div>
-                                            <i class="percent">63%</i>
+                                            <i class="percent">45%</i>
                                             <div class="clear"></div>
                                             <h3 class="title">First Girlfriend</h3>
                                             <h4 class="date">Jan 2033</h4>
@@ -212,7 +235,7 @@
                                             <a href="#" class="EVENT np-1" id="eve1">
                                                 <div class="full-icon">
                                                     <i class="back-circle"></i><i class="negative-circle"></i>
-                                                    <img src="includes/images/friends.png" class="friends-size">
+                                                    <img src="includes/images/friends.png" class="friends-size" alt="icon">
                                                     <div class="clear"></div>
                                                 </div>
                                                 <i class="percent">63%</i>
@@ -229,7 +252,7 @@
                                                 <a href="#" class="EVENT np-1" id="eve1">
                                                     <div class="full-icon">
                                                         <i class="back-circle"></i><i class="negative-circle"></i>
-                                                        <img src="includes/images/friends.png" class="friends-size">
+                                                        <img src="includes/images/friends.png" class="friends-size" alt="icon">
                                                         <div class="clear"></div>
                                                     </div>
                                                     <i class="percent">63%</i>
@@ -246,7 +269,7 @@
                                                     <a href="#" class="EVENT np-1" id="eve1">
                                                         <div class="full-icon">
                                                             <i class="back-circle"></i><i class="negative-circle"></i>
-                                                            <img src="includes/images/friends.png" class="friends-size">
+                                                            <img src="includes/images/friends.png" class="friends-size" alt="icon">
                                                             <div class="clear"></div>
                                                         </div>
                                                         <i class="percent">63%</i>
@@ -271,14 +294,14 @@
                  <!--event-->   
                  <div class="row space-0">
                     <div class="col">
-                        <hr class="dlp dlp-1">
-                        <a href="#" class="EVENT pp-1" id="eve2">
+                        <hr class="dlp dlp-100">
+                        <a href="#" class="EVENT pp-100" id="eve11">
                             <div class="full-icon">
                                 <i class="back-circle"></i><i class="positive-circle"></i>
-                                <img src="includes/images/heart.png" class="heart-size">
+                                <img src="includes/images/heart.png" class="heart-size" alt="icon">
                                 <div class="clear"></div>
                             </div>
-                            <i class="percent">39%</i>
+                            <i class="percent">100%</i>
                             <div class="clear"></div>
                             <h3 class="title">First Boyfriend</h3>
                             <h4 class="date">Jan 2033</h4>
@@ -293,7 +316,7 @@
                         <a href="#" class="EVENT pp-100" id="eve2">
                             <div class="full-icon">
                                 <i class="back-circle"></i><i class="positive-circle"></i>
-                                <img src="includes/images/heart.png" class="heart-size">
+                                <img src="includes/images/heart.png" class="heart-size" alt="icon">
                                 <div class="clear"></div>
                             </div>
                             <i class="percent">39%</i>

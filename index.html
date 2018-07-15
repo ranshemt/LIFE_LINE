@@ -22,6 +22,7 @@
         <script src="includes/js/pie.js"></script>
         <script src="includes/js/main.js"></script>
         <script src="includes/js/navs.js"></script>
+        <script src="includes/js/get_user_details.js"></script>
         
         
     </head>
@@ -52,7 +53,7 @@
                         
                     </div>
                     <div class="col-3">
-                        <a href="#" class="logo-font logo-top-size"><img src="includes/images/logo-white.png" class="logo-top">Life Line</a>
+                        <a href="#" class="logo-font logo-top-size"><img src="includes/images/logo-white.png" class="logo-top" alt="logo">Life Line</a>
                     </div>
                     <div class="col-3 un-top">
                         User Name
@@ -68,19 +69,22 @@
                         <i class="fas fa-times" id="close-icon"></i>
                     </li>
                     <li class="menu-big-item">
-                        <a href="#" class="logo-font logo-font-size"><img src="includes/images/logo-white.png" class="logoMenu"><h1>Life Line</h1></a>
+                        <a href="#" class="logo-font">
+                            <img src="includes/images/logo-white.png" class="logoMenu" alt="logo">
+                            <h1 class="logo-font-size">Life Line</h1>
+                        </a>
                     </li>
                     <li class="menu-big-item">
-                        <a href="#"><img src="includes/images/logo-white.png" class="logoMenu">User Name</a>
+                        <a href="#" id="un-side"><img src="includes/images/dana.PNG" class="logoMenu" alt="user picture">User Name</a>
                     </li>
                     <li>
                         <a href="#" class="active"><i class="fas fa-home iconMenu"></i>Dashboard</a>
                     </li>
                     <li>
-                        <a href="lifeline.html" class="off"><img src="includes/images/logo-white.png" class="logoMenu-ul">Life Line</a>
+                        <a href="lifeline.html" class="off"><img src="includes/images/logo-white.png" class="logoMenu-ul" alt="logo">Life Line</a>
                     </li>
                     <li>
-                        <a href="#" class="off"><i class="fas fa-users iconMenu"></i>My Kids</a>
+                        <a href="mykids.html" class="off"><i class="fas fa-users iconMenu"></i>My Kids</a>
                     </li>
                     <li>
                         <a href="#" class="off"><i class="fas fa-cog iconMenu"></i>Settings</a>
@@ -99,7 +103,7 @@
             <div class="container-fluid">
                 <!--Grid row-->
                 <!--PIE's ROW-->
-                <div class="row">
+                <div class="row" id="pies">
                     <!--Grid column-->
                     <!--PIE OBJECT-->
                     <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 mb-4">
@@ -340,5 +344,17 @@
         </main>
         <!--Main Layout-->
 
+
+        <script>
+            updateDonutChart('#pie1', 65, true, 'good');
+            updateDonutChart('#pie2', 65, true, 'bad');
+            updateDonutChart('#pie3', 15, true, 'good');
+            updateDonutChart('#pie4', 15, true, 'bad');
+            updateDonutChart('#pie5', 23, true, 'good');
+            updateDonutChart('#pie6', 23, true, 'bad');
+            updateDonutChart('#pie7', 95, true, 'good');
+            updateDonutChart('#pie8', 95, true, 'bad');
+            updateDonutChart('#pie9', 10, true, 'bad');
+        </script>
     </body>
 </html>

@@ -48,7 +48,7 @@ function updateDonutChart (el, percent, donut, type) {
         $(el + ' .shadow').css('border-color', '#39b54a')
     }
 }
-
+/*
 window.onload = function (){
     updateDonutChart('#pie1', 65, true, 'good');
     updateDonutChart('#pie2', 65, true, 'bad');
@@ -60,5 +60,5 @@ window.onload = function (){
     updateDonutChart('#pie8', 95, true, 'bad');
     updateDonutChart('#pie9', 10, true, 'bad');
 
-}
+}*/
 // Pass in a number for the percent

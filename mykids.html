@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Life Line</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        
+         <!--my includes-->
+        <link rel="icon" href="includes/images/logoFav.png">
+        <link href="includes/css/pie.css" rel="stylesheet">
+        <link href="includes/css/icons.css" rel="stylesheet">
+        <link href="includes/css/style.css" rel="stylesheet">
+        <script src="includes/js/pie.js"></script>
+        <script src="includes/js/main.js"></script>
+        <script src="includes/js/navs.js"></script>
+        <script src="includes/js/get_user_details.js"></script>
+        
+    </head>
+    <body>
+        <header>
+            <!--Top NavBar-->
+            <div class="container-fluid topnav" id="myTopnav">
+                <!--top desktop-->
+                <div class="row" id="desktop-topNav">
+                    <div class="col col1-padd">
+                        <i>Dashboard</i>
+                        <i class="bread">
+                            <a href="index.html">Home</a>
+                             / <a href="index.html" class="bread-chosen">My Kids</a>
+                        </i>
+                    </div> 
+                    <div class="col">
+                        <i class="searchBar">Ask counselor anything or search time line <i class="fas fa-search bar-icon"></i> </i>
+                    </div> 
+                </div>
+                <!--/top desktop-->  
+                <!--top tablet-->  
+                <div class="row" id="tablet-topNav">
+                    <div class="col-6">
+                        <a class="icon" id="menu-icon">
+                            <i class="fa fa-bars hamburger"></i>Life Line
+                        </a>
+                        
+                    </div>
+                    <div class="col-3">
+                        <a href="#" class="logo-font logo-top-size"><img src="includes/images/logo-white.png" class="logo-top" alt="logo">Life Line</a>
+                    </div>
+                    <div class="col-3 un-top">
+                        User Name
+                    </div>
+                </div>
+                <!--/top tablet-->
+            </div>
+            <!--/Top NavBar-->
+            <!--Side Navbar-->
+            <div id="mySidenav" class="sideNav">
+                <ul class="ulWid">
+                    <li id="close-button">
+                        <i class="fas fa-times" id="close-icon"></i>
+                    </li>
+                    <li class="menu-big-item">
+                        <a href="#" class="logo-font">
+                            <img src="includes/images/logo-white.png" class="logoMenu" alt="logo">
+                            <h1 class="logo-font-size">Life Line</h1>
+                        </a>
+                    </li>
+                    <li class="menu-big-item">
+                        <a href="#" id="un-side"><img src="includes/images/logo-white.png" class="logoMenu" alt="user picture">User Name</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="off"><i class="fas fa-home iconMenu"></i>Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="lifeline.html" class="off"><img src="includes/images/logo-white.png" class="logoMenu-ul" alt="logo">Life Line</a>
+                    </li>
+                    <li>
+                        <a href="#" class="active"><i class="fas fa-users iconMenu"></i>My Kids</a>
+                    </li>
+                    <li>
+                        <a href="#" class="off"><i class="fas fa-cog iconMenu"></i>Settings</a>
+                    </li>
+                    <li>
+                        <a href="#" class="off"><i class="fas fa-sign-out-alt iconMenu"></i>log out</a>
+                    </li>
+                </ul>
+              </div>
+              <!--/Side Navbar-->
+              
+        </header>
+
+        <!--Main Layout-->
+        <main class="MAIN">
+            <!--Kids-->
+            <div class="container-fluid" id="my-kids-list">
+                <div class="row" id="kids-message">
+                    <div class="col">
+                        <h2 class="kids-welcome">Welcome to your Kids Page</h2>
+                        <h2 class="kids-welcome mb-4" id="presonal-message">Please choose a child to view its life line</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a href="lifeline.html?userId=112" class="card">
+                            <img src="includes/images/kisTry.jpg" class="card-img-top" alt="user picture">
+                            <div class="card-body">
+                                <h5 class="card-title kid-name">Lior</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="card">
+                            <img src="includes/images/kidstry2.jpg" class="card-img-top" alt="user picture">
+                            <div class="card-body">
+                                <h5 class="card-title kid-name">Harry</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="card">
+                            <img src="includes/images/kisTry.jpg" class="card-img-top" alt="user picture">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col">
+                        <a href="#" class="card">
+                            <img src="includes/images/kisTry.jpg" class="card-img-top" alt="user picture">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="card">
+                            <img src="includes/images/kisTry.jpg" class="card-img-top" alt="user picture">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="card">
+                            <img src="includes/images/kisTry.jpg" class="card-img-top" alt="user picture">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--/Kids-->
+        </main>
+        <!--Main Layout-->
+
+    </body>
+</html>

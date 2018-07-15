@@ -5,3 +5,6 @@ user name	-	out of bound
 
 Life Line:
 line picture	-	not responsive
+
+My Kids:
+cards		-	not same height
